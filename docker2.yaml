@@ -31,5 +31,3 @@ jobs:
           docker build -t ahmedamr309/yourimage:branchname .
           docker push ahmedamr309/yourimage:branchname
 
-      - name: عرض الفرع الحالي
-        run: echo "الفرع الحالي: $GITHUB_REF"
