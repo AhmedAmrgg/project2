@@ -14,8 +14,8 @@ jobs:
 
     env:
       AWS_REGION: ${{ secrets.AWS_REGION }} 
-      ECR_REPOSITORY: my-app
-      IMAGE_TAG: latest1
+      ECR_REPOSITORY: app2
+      IMAGE_TAG: latest13
       IMAGE_URI: 313616258649.dkr.ecr.us-east-1.amazonaws.com/app2
 
     steps:
